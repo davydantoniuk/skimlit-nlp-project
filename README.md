@@ -33,6 +33,12 @@ This project aims to classify sentences into predefined categories using a combi
 - Load the trained model and make predictions on new abstracts.
 - Visualize predicted labels for each sentence in the abstract.
 
+## Example of model classification
+
+<p align="center">
+    <img src="description_images/classify.jpg" alt="SkimLit Example">
+</p>
+
 ## Files
 
 - `char_vectorizer.pkl`: Saved character vectorizer.
@@ -82,5 +88,5 @@ pip install -r requirements.txt
 6. Run the application:
 
 ```bash
-python app.py
+python app/app.py
 ```
